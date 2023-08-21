@@ -12,6 +12,8 @@ The foundation of our analysis lies in two distinct surveys, both sourced from K
 
 <img src="image/cover_loyalty_program.png" width="1000">
 
+[Looker Dashboard](https://lookerstudio.google.com/reporting/3f0617c3-b12a-49b9-8e96-ba30113fccc0)
+
 ## 2. Methodology
 
 The data is stored on GCP (Google Cloud Platform) and processed using BigQuery as our Data Warehouse. We utilized DBT (Data Build Tool) for data transformation, organization, and quality checks. Finally, visualizations and dashboards were created using Looker to facilitate data-driven decision making.
@@ -43,13 +45,13 @@ These assumptions were made to simplify our analysis and provide a clearer, more
 
 ## 4. Data Analysis
 
-## 4. Data Analysis
-
 In this section, we will delve into the insights derived from the data, supported by graphical representations. Three primary dimensions were analyzed: job roles, experience levels, and salary ranges.
 
 ### 4.1. Job Roles Distribution
 
 The USA has a significant 43.23% of its data professionals classified as Data Engineers, while Brazil has a lesser proportion at 29%. On the flip side, Brazil has a higher concentration of Data Analysts, standing at 37.9%, compared to the USA's 24.85%.
+
+<img src="image/cover_loyalty_program.png" width="1000">
 
 **Analysis**: The higher proportion of Data Engineers in the USA could suggest a more mature data market leaning towards specialized roles, potentially driven by the need for big data expertise, infrastructure management, and advanced analytics solutions. Brazil's dominant Data Analyst population could indicate a market that's still in the phase of understanding and deriving value from data, with advanced specializations like Data Engineering and Data Science still on the rise.
 
@@ -57,11 +59,15 @@ The USA has a significant 43.23% of its data professionals classified as Data En
 
 A significant difference is observed in the experience levels. The USA boasts a whopping 78% of its data professionals in the Senior bracket. In contrast, Brazil's landscape is dominated by Juniors, constituting 50% of the populace, followed by Mid-level professionals at 36%.
 
+<img src="image/cover_loyalty_program.png" width="1000">
+
 **Analysis**: The high prevalence of Senior professionals in the USA underscores the country's long-standing engagement with data-driven roles, reflecting a mature market with seasoned professionals. Brazil's Junior-heavy demographic suggests a burgeoning market, witnessing a newer influx of individuals entering the data domain, possibly due to recent growth, awareness, and education in data-related fields.
 
 ### 4.3. Salary Ranges
 
 When it comes to remuneration, there's a stark contrast. A significant 83% of American data professionals earn above 100k USD annually. In comparison, Brazilian professionals have a more modest earning landscape: 37.9% earn between 20k and 40k USD, and 35.7% earn between 10k and 20k USD annually.
+
+<img src="image/cover_loyalty_program.png" width="1000">
 
 **Analysis**: The salary disparities reflect the economic differences, living standards, and market maturity between the two countries. The USA, with its advanced tech industry, higher cost of living, and mature data market, offers higher salaries. Brazil's emerging market, coupled with a lower cost of living and the influx of newer professionals (as evidenced by the experience distribution), leads to comparatively modest salary ranges. However, it's crucial to contextualize these figures within each country's economic framework to draw fair comparisons.
 
@@ -70,16 +76,26 @@ When it comes to remuneration, there's a stark contrast. A significant 83% of Am
 These analyses shed light on the differing landscapes of data professionals in Brazil and the USA, offering valuable insights for businesses, recruiters, and professionals in the field.
 
 
-## 8. Deployment
+## 5. Deployment
 
 Deployed the final datasets to Looker, where dashboards and visualizations were created to provide a comparative view of the data professionals in Brazil and the USA.
 
-## 9. Conclusion
+[Looker Dashboard](https://lookerstudio.google.com/reporting/3f0617c3-b12a-49b9-8e96-ba30113fccc0)
 
-### 9.1. Business Results
+## 6. Conclusion
 
-### 9.2. Next Steps
+The comparative analysis between Brazilian and American data professionals provides illuminating insights into the evolving global landscape of data-driven roles. One of the most striking revelations of our study is the untapped opportunity to consider Brazilian professionals for remote roles in US companies.
 
-## 10. References
+Brazil's growing data market, along with the influx of new talent entering the field, means that there is a pool of experienced professionals available at a cost significantly below US market rates. This is not a reflection of the quality or expertise of Brazilian professionals, but rather a consequence of the economic disparities between the two countries.
+
+American companies have a lot to gain by seizing this opportunity. Not only can they achieve substantial cost savings, but they can also benefit from the diverse perspectives and experiences that Brazilian data professionals bring to the table. Additionally, with the remote work model becoming more and more normalized, geographic boundaries are less constrained than ever before.
+
+In essence, as the world becomes more interconnected, forward-thinking companies have a unique chance to optimize their talent acquisition strategy, leveraging the expertise of Brazilian data professionals to drive innovation, efficiency and growth.
+
+## 7. Next Steps
+- Stratify the skills data professionals possess in each country.
+- Detail other functions of the data area.
+
+## 8. References
 * [State of Data](https://www.kaggle.com/datasets/datahackers/state-of-data-2022)
 * [US Data Field Salaries](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)
