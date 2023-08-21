@@ -89,7 +89,7 @@ Deployed the final datasets to Looker, where dashboards and visualizations were 
 
 ## 6. Conclusion
 
-The comparative analysis between Brazilian and American data professionals provides illuminating insights into the evolving global landscape of data-driven roles. One of the most striking revelations of our study is the untapped opportunity to consider Brazilian professionals for remote roles in US companies.
+The comparative analysis between Brazilian and American data professionals provides illuminating insights into the evolving global landscape of data-driven roles. One of the most striking revelations of this study is the untapped opportunity to consider Brazilian professionals for remote roles in US companies.
 
 Brazil's growing data market, along with the influx of new talent entering the field, means that there is a pool of experienced professionals available at a cost significantly below US market rates. This is not a reflection of the quality or expertise of Brazilian professionals, but rather a consequence of the economic disparities between the two countries.
 
