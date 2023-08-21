@@ -16,7 +16,7 @@ The foundation of our analysis lies in two distinct surveys, both sourced from K
 
 ## 2. Methodology
 
-The data is stored on GCP (Google Cloud Platform) and processed using BigQuery as our Data Warehouse. We utilized DBT (Data Build Tool) for data transformation, organization, and quality checks. Finally, visualizations and dashboards were created using Looker to facilitate data-driven decision making.
+The data are stored on GCP (Google Cloud Platform) and processed using BigQuery as our Data Warehouse. We utilized DBT (Data Build Tool) for data transformation, organization, and quality checks. Finally, visualizations and dashboards were created using Looker to facilitate data-driven decision making.
 
 <img src="analyses/lineage.png" width="800">
 
@@ -26,6 +26,11 @@ The data is stored on GCP (Google Cloud Platform) and processed using BigQuery a
 ### 3.1. Context
 
 With the global demand for data professionals increasing, there's a need to understand the market landscape in different regions. This analysis offers a comparative view of two major markets: Brazil and the USA.
+
+To provide a comprehensive perspective, this study draws from two key data sources:
+1. The [State of Data](https://www.kaggle.com/datasets/datahackers/state-of-data-2022) dataset, which gives insights into the Brazilian data professionals' landscape.
+2. The [US Data Field Salaries](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023) dataset, which offers a snapshot of the data professionals' scenario in the USA.
+
 
 ### 3.2. Business assumption:
 
