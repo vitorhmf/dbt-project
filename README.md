@@ -100,6 +100,7 @@ In essence, as the world becomes more interconnected, forward-thinking companies
 ## 7. Next Steps
 - Stratify the skills data professionals possess in each country.
 - Detail other functions of the data area.
+- Improve the dashboard design, such as the filter field and the legends and titles of the charts
 
 ## 8. References
 * [State of Data](https://www.kaggle.com/datasets/datahackers/state-of-data-2022)
