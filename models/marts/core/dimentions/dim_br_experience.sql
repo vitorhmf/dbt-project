@@ -1,5 +1,5 @@
 WITH state_of_data AS(
-    select * from {{ ref('state_of_data') }} 
+    select * from {{ ref('stg_br_data_salaries') }} 
 )
 SELECT distinct
   __P2_i_____Quanto_tempo_de_experi__ncia_na___rea_de_dados_voc___tem___ AS experience_range_br,
