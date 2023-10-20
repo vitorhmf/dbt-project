@@ -38,5 +38,5 @@ models:
       materialized: table
     transforms:
       materialized: table
-    analytics:
+    marts:
       materialized: table

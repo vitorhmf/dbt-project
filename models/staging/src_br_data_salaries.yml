@@ -1,0 +1,7 @@
+sources:
+  - name: data_salaries 
+    database: strong-host-396300 
+    schema: state_of_data  
+    tables: 
+      - name: data_analysis
+      - name: us_data_salaries

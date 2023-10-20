@@ -1,5 +1,5 @@
 WITH state_of_data AS(
-    select * from {{ ref('state_of_data') }} 
+    select * from {{ ref('stg_br_data_salaries') }} 
 )
 SELECT DISTINCT
   __P2_f_____Cargo_Atual__ AS pt_role,

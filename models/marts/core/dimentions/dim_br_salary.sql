@@ -1,5 +1,5 @@
 WITH state_of_data AS(
-    select * from {{ ref('state_of_data') }} 
+    select * from {{ ref('stg_br_data_salaries') }} 
 )
 SELECT distinct
     __P2_h_____Faixa_salarial__ as salary_range_brl_month,

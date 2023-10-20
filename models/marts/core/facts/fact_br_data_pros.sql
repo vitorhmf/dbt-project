@@ -1,5 +1,5 @@
 WITH state_of_data AS(
-    select * from {{ ref('state_of_data') }} 
+    select * from {{ ref('stg_br_data_salaries') }} 
 )
 SELECT 
     a.__P0____id__ AS id,
