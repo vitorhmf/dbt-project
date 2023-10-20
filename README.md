@@ -18,12 +18,24 @@ The foundation of our analysis lies in two distinct surveys, both sourced from K
 
 The data are stored on GCP (Google Cloud Platform) and processed using BigQuery as our Data Warehouse. We utilized DBT (Data Build Tool) for data transformation, organization, and quality checks. Finally, visualizations and dashboards were created using Looker to facilitate data-driven decision-making.
 
+### 2.1 Lineage
+- Brazilian source lineage
 <img src="images/lineage_br.png" width="800">
 
+- Us source lineage
 <img src="images/lineage_us.png" width="800">
 
+- Complete Lineage
 <img src="images/lineage.png" width="800">
 
+### 2.2 Tests and Docs
+
+The testing and documentation phases within this DBT project are preliminary and have been employed to explore and understand these functionalities of the DBT framework. The included tests are not exhaustive, and the documentation is introductory. Comprehensive enhancement of both testing and documentation is anticipated to ensure that they are fully representative and beneficial for the entire project's scope and objectives.
+
+Future iterations will focus on enriching the quality and scope of tests and documentation to meet and exceed standards of excellence.
+
+- [Test yaml file](https://github.com/vitorhmf/dbt-project/blob/main/models/marts/core/dimentions/test_dim_tables.yaml)
+- [Docs yaml file](https://github.com/vitorhmf/dbt-project/blob/main/models/marts/core/dimentions/doc.md)
 
 ## 3. Business Understanding
 
@@ -104,6 +116,7 @@ In essence, as the world becomes more interconnected, forward-thinking companies
 ## 7. Next Steps
 - Stratify the skills data professionals possess in each country.
 - Detail other functions of the data area.
+- Develop the quality and scope of testing and documentation
 - Improve the dashboard design, such as the filter field and the legends and titles of the charts
 
 ## 8. References
