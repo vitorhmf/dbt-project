@@ -1,0 +1,13 @@
+models:
+  - name: dim_br_role
+    columns: 
+      - name: role
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - 'Data Analyst'
+                - 'Data Scientist'
+                - 'Data Engineer'
+                - 'BI Analyst'
+          
