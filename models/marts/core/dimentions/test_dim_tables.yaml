@@ -1,6 +1,7 @@
 models:
   - name: dim_br_role
-    columns: 
+    description: "{{ doc('br_role') }}"
+    columns:
       - name: role
         tests:
           - not_null
@@ -10,4 +11,4 @@ models:
                 - 'Data Scientist'
                 - 'Data Engineer'
                 - 'BI Analyst'
-          
+                - 'Others'
